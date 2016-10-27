@@ -1,0 +1,167 @@
+\documentclass[12pt,a4paper,]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{latexsym}
+\usepackage{indentfirst}
+%\usepackage{epsfig}
+\usepackage{CJK}
+\usepackage[center]{titlesec}
+ \usepackage{epstopdf}
+ 
+\setlength{\textheight}{22cm}
+\linespread{1.5}
+\setlength{\textwidth}{15cm}
+\setlength{\oddsidemargin}{0.5cm}
+\setlength{\topmargin}{0.1cm}
+\renewcommand{\baselinestretch}{1.2}
+\renewcommand{\baselinestretch}{1.7}
+
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+
+
+\newpage
+\tableofcontents
+
+
+\newpage
+\pagenumbering{arabic}
+
+\section{问题重述}
+\section{符号说明}
+罗列方法：
+\begin{description}
+\item[a.] 座位数(3级标准)
+\item[b.]长度
+\item[c.]翼展
+\item[d.]最大起飞机重量
+\item[e.]巡航速度
+\item[f.]最大航程（全载）
+\item[g.]油箱容量
+\end{description}
+\section{基本假设}
+\section{问题分析}
+公式插入与自动编号：
+\begin{equation}
+y_i=\beta_0+\beta_1x_{i1}+\beta_2x_{i2}+\beta_3x_{i3}
+\end{equation}
+\section{模型建立与求解}
+插图：
+\par
+1)单张图：(见Figure1)
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm]{.fig15.eps}
+\caption{数据拟合图1}
+\end{figure}
+\par
+2)多张图：(见Figure2,3)
+\begin{figure}
+\begin{minipage}[t]{0.5\linewidth}
+\centering
+\includegraphics[width=2.2in]{fig11.eps}
+\caption{Zachary Karate Club} \label{fig:side:a}
+\end{minipage}
+\begin{minipage}[t]{0.5\linewidth}
+\centering
+\includegraphics[width=2.2in]{fig15.eps}
+\caption{Enron Email Data} \label{fig:side:b}
+\end{minipage}
+\end{figure}
+
+\section{模型检验}
+定理等：
+\newtheorem{definition}{定义}[part]
+\begin{definition}
+市场潜力是指在给定的条件下，在一段指定的时间内，能够合理的取得的最大销售额。新产品的市场潜力是在一个既定的环境下，
+当行业营销努力达到无穷大时，市场需求所趋向的极限。
+\end{definition}
+\section{模型优、缺点}
+表格：(见Table1)
+\begin{table}[h]
+\centering
+\caption{空勤人员飞行每小时费用标准}
+\begin{tabular}
+{p{120pt}p{120pt}}
+\hline
+最大飞机起飞全重/t&费率/US/km\\
+\hline
+小于50&0.4\\
+\hline
+51-100&0.45\\
+\hline
+101-200&0.50\\
+\hline
+大于200&按公式计算\\
+\hline
+\end{tabular}
+\end{table}
+\section{模型优化}
+
+\subsection{矩阵}
+矩阵：
+\[
+\left[\begin{array}{ccccccc}
+    0.7177 &        0&         0&         0&    6.6667&    0.4607   &       0.7549\\
+    5.0239  &  5.3097 &   4.9383 &   0.8259 &   6.6667 &   6.0461   &       0.7549\\
+   13.1579   &18.3628  & 17.0782  &  2.6336  &  6.6667 &   0.6238   &       0.7549\\
+   16.7464   &24.1150   &22.4280   & 3.8725   &      0 &   3.1190   &       0.7549\\
+\end{array}\right]
+\]
+
+\subsection{多行公式}
+多行公式：
+\begin{eqnarray}
+C_{labor}&=&4(W_{emp}+1.2\times 10^5)(1+0.59t_{flight}[(5\times10^{-5}W_{emp}+6)(w_{emp}+
+\nonumber\\
+&&1.2\times10^5)-6.3\times10^5]+4N_{engine}[0.6t_{flight}+0.3+3\times10^{-5}W_{max}\nonumber\\
+&&(0.9t_{flight}+1)])\div t_{block}
+\end{eqnarray}
+
+\subsection{行列式}
+\[
+\left|\begin{array}{cccc}
+    1 &    6    & 9 \\
+    7 &    90   & f(x)\\
+    9 & \psi(x) & g(x)
+\end{array}\right|
+\]
+
+\subsection{方程组}
+\begin{equation}
+\begin{cases}
+ \ u_{tt}(x,t)= b(t)\triangle u(x,t-4)&\\
+\ \hspace{42pt}- q(x,t)f[u(x,t-3)]+te^{-t}\sin^2 x,  &  t \neq t_k; \\
+ \ u(x,t_k^+) - u(x,t_k^-) = c_k u(x,t_k), & k=1,2,3\ldots ;\\
+ \ u_{t}(x,t_k^+) - u_{t}(x,t_k^-) =c_k u_{t}(x,t_k), &
+ k=1,2,3\ldots\ .
+\end{cases}
+\end{equation}
+
+
+
+\addcontentsline{toc}{part}{参考文献}
+\begin{thebibliography}{90}
+{
+ \bibitem{}刘承平，数学建模方法[M]，高等教育出版社，{\bf2003}。
+}
+\end{thebibliography}
+
+\end{CJK*}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,404 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.18)  11 MAR 2016 16:22
+entering extended mode
+**E:/workp/tex/LaTeX论文模板/模板.tex
+(E:/workp/tex/LaTeX论文模板/模板.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(D:\CTEX\CTeX\tex\latex\cct\cctart.cls
+Document Class: cctart 2004/10/14 Derived from the `article' class
+(D:\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\CTEX\MiKTeX\tex\latex\base\size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(D:\CTEX\CTeX\tex\latex\cct\cctbase.sty
+Package: cctbase 2006/05/17
+ (D:\CTEX\CTeX\tex\latex\cct\CCT.sty
+0.61803 [2009/11/20] (D:\CTEX\CTeX\tex\latex\cct\cchead.sty
+\!ZihaoNo=\count87
+\ccwd=\dimen103
+\ccht=\dimen104
+\ccdp=\dimen105
+\!ccbox=\box26
+\!ccbdskip=\skip43
+)
+Package: CCT 2009/11/20 0.61803
+\@CCTcnta=\count88
+\@CCTcntb=\count89
+\@CCTlastkern=\count90
+\@CCTglue=\skip44
+\@CCTtoks=\toks14
+
+(D:\CTEX\CTeX\tex\latex\cct\CCT.cfg) (D:\CTEX\CTeX\tex\latex\cct\GBKkern.cfg)
+(D:\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd) (\ziti{A}->gbksong)
+\@CCTskip=\skip45
+)))
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen106
+))
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks16
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks17
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks18
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(D:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+(D:\CTEX\MiKTeX\tex\latex\tools\bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)
+(D:\CTEX\MiKTeX\tex\latex\base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(D:\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(D:\CTEX\MiKTeX\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box29
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen117
+\ttl@minus=\dimen118
+\ttl@toksa=\toks21
+\titlewidth=\dimen119
+\titlewidthlast=\dimen120
+\titlewidthfirst=\dimen121
+)
+(D:\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(D:\CTEX\MiKTeX\tex\latex\oberdiek\epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(D:\CTEX\MiKTeX\tex\latex\oberdiek\grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+))
+(D:\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\pdftexcmds.sty
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+(E:\workp\tex\LaTeX论文模板\模板.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+(D:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen122
+\scratchbox=\box30
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen123
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks23
+) (D:\CTEX\CTeX\tex\latex\CJK\GB\c19hei.fd) (\ziti{B}->gbkhei)
+Loading punctuation table gbkhei.tbl (E:\workp\tex\LaTeX论文模板\模板.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 9.
+
+(D:\CTEX\MiKTeX\tex\latex\base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+))
+\tf@toc=\write3
+ [1
+
+{D:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+ (D:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <17.28> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 32.
+
+Loading punctuation table gbksong.tbl
+Package epstopdf Info: Source file: <fig15.eps>
+(epstopdf)                    date: 2010-05-03 17:33:47
+(epstopdf)                    size: 1415102 bytes
+(epstopdf)             Output file: <fig15-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-11 08:43:57
+(epstopdf)                    size: 29224 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig15-eps-converted-to.pdf 
+fig15.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+
+<fig15-eps-converted-to.pdf, id=41, 551.05875pt x 423.5825pt>
+File: fig15-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig15-eps-converted-to.pdf>
+Package pdftex.def Info: fig15-eps-converted-to.pdf used on input line 56.
+(pdftex.def)             Requested size: 284.52756pt x 218.71297pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <fig11.eps>
+(epstopdf)                    date: 2010-05-03 17:28:24
+(epstopdf)                    size: 1423771 bytes
+(epstopdf)             Output file: <fig11-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-11 08:42:36
+(epstopdf)                    size: 29899 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig11-eps-converted-to.pdf 
+fig11.eps>
+(epstopdf)             \includegraphics on input line 64.
+Package epstopdf Info: Output file is already uptodate.
+<fig11-eps-converted-to.pdf, id=42, 561.09625pt x 418.56375pt>
+File: fig11-eps-converted-to.pdf Graphic file (type pdf)
+
+<use fig11-eps-converted-to.pdf>
+Package pdftex.def Info: fig11-eps-converted-to.pdf used on input line 64.
+(pdftex.def)             Requested size: 158.99377pt x 118.60213pt.
+Package epstopdf Info: Source file: <fig15.eps>
+(epstopdf)                    date: 2010-05-03 17:33:47
+(epstopdf)                    size: 1415102 bytes
+(epstopdf)             Output file: <fig15-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-03-11 08:43:57
+(epstopdf)                    size: 29224 bytes
+(epstopdf)             Command: <epstopdf --outfile=fig15-eps-converted-to.pdf 
+fig15.eps>
+(epstopdf)             \includegraphics on input line 69.
+Package epstopdf Info: Output file is already uptodate.
+File: fig15-eps-converted-to.pdf Graphic file (type pdf)
+ <use fig15-eps-converted-to.pdf>
+Package pdftex.def Info: fig15-eps-converted-to.pdf used on input line 69.
+(pdftex.def)             Requested size: 158.99377pt x 122.21529pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 62--72
+[][] [] 
+ []
+
+[1]
+\c@definition=\count110
+ (D:\CTEX\CTeX\tex\latex\CJK\GB\c19kai.fd) (\ziti{C}->gbkkai)
+Loading punctuation table gbkkai.tbl [2 <E:/workp/tex/LaTeX论文模板/fig15-e
+ps-converted-to.pdf> <E:/workp/tex/LaTeX论文模板/fig11-eps-converted-to.pdf
+>]
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 103.
+ [3] [4] (E:\workp\tex\LaTeX论文模板\模板.aux) ) 
+Here is how much of TeX's memory you used:
+ 3516 strings out of 495354
+ 44172 string characters out of 3183859
+ 108264 words of memory out of 3000000
+ 6507 multiletter control sequences out of 15000+200000
+ 45944 words of font info for 161 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 42i,10n,41p,331b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/CTEX/CTeX/fonts/truet
+ype/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.tt
+f><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf>
+<C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/sim
+kai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/F
+onts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/W
+INDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.t
+tf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/
+simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOW
+S/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C
+:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simka
+i.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fon
+ts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simkai.ttf><C:/WIN
+DOWS/Fonts/simkai.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/
+CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/sim
+sun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/tru
+etype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CT
+EX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/
+simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/
+truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:
+/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chine
+se/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fon
+ts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>
+<D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C
+:/WINDOWS/Fonts/simhei.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/
+CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chines
+e/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/font
+s/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
+D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chi
+nese/simsun.ttf><D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/CTEX/CTeX/f
+onts/truetype/chinese/simsun.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts
+/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDO
+WS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><
+C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simh
+ei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fo
+nts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WI
+NDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.tt
+f><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/s
+imhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><D:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbsy10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D
+:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/CTEX/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/CTEX
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/CTEX/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on 模板.pdf (5 pages, 464112 bytes).
+PDF statistics:
+ 406 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
