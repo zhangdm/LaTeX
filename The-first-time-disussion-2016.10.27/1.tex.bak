@@ -1,0 +1,239 @@
+\documentclass[11pt,CJK]{cctart}
+
+%\usepackage{CJK}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+%\usepackage[titletoc]{appendix}
+\usepackage{listings}
+\usepackage{palatino}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{color}
+%\usepackage{mwe}
+%\usepackage{newtxtext}
+%\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,textfont=it,labelsep=period,position=bottom}
+\captionsetup[figure]{name=Fig.}
+\bibliographystyle{IEEEtran}
+\usepackage[toc,page]{appendix}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{amsmath}
+\usepackage{geometry}  % 设置页边距
+\usepackage{fancyhdr}  % 设置页眉页脚
+\usepackage{indentfirst}  % 首行缩进
+\usepackage{setspace}  % 行间距
+
+%\bibliographystyle{unsrt}
+
+%\tableofcontents
+%\usepackage{color}
+%\usepackage[dvips]{color}
+%\usepackage{epic,eepic}
+
+
+% 设置页边距，纸的长度为20cm,宽度为15cm，左边距1cm，右边距2cm、上边距3cm、下边距4cm
+%\geometry{papersize={20cm,30cm}}
+\geometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
+
+% 在页眉左边写上我的名字，中间写上今天的日期，右边写上我的电话；页脚的正中写上页码；页眉和正文直接有一道宽为0.4pt的横线分割，可以在导言区加上如下几行
+\pagestyle{fancy}
+\lhead{\author}
+\chead{\date}
+\rhead{\center write by 张祥}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\headwidth}{\textwidth}
+\renewcommand{\footrulewidth}{0pt}
+
+
+% 首行缩进2个中文字
+\setlength{\parindent}{2.45em}
+
+% 行间距
+\onehalfspacing
+
+% 段间距
+\addtolength{\parskip}{.4em}
+
+% 题目
+
+\title{ \huge 第一次讨论 \\
+}
+
+% 作者
+\author{杨冰清  、 张祥}
+
+
+
+
+\begin{document}
+%\begin{CJK}{GBK}{song}
+
+%\begin{CJK}{GBK}{song}
+
+
+% 时间
+\date{\today}
+
+\maketitle
+
+% 新的一页
+\newpage
+
+\tableofcontents
+% 摘要部分
+
+% 新的一页
+\newpage
+
+
+\begin{abstract}
+  上午我们讨论了线性回归，逻辑斯提回归，贝叶斯，从公式开始推导，参数的求解，以及costfunction的应用。
+% 关键字
+
+\textbf{keywords:} 线性回归  ; 逻辑斯提回归;贝叶斯；cost function
+\end{abstract}
+
+
+
+% 新的一页
+\newpage
+
+
+\section{线性回归}
+
+
+\subsection{一元线性回归}
+
+
+一元线性回归，即只有一个变量，公式的为$Y = \beta_{0} + \beta_{1} X$.现在我们的任务是要求解参数$\beta_{0}$以及$\beta_{1}$,这里给出两种方法：最小二乘法，梯度下降法。
+
+\subsubsection{cost function}
+一元线性回归的cost function 是 : \\
+$$J(\beta_{0},\beta_{1}) = \frac{1}{2N} \sum_{i=1}^{N} (y_{i} - \beta_{0} - \beta_{1} x_{i} )^{2}$$
+
+最小二乘法:\\
+
+分别对$J$关于$\beta$求导：
+$$\frac{\partial J(\beta_{0},\beta_{1})}{\partial \beta_{0}} = - \frac{1}{N} \sum_{i=1}^{N} (y_{i} - \beta_{0} - \beta_{1} x_{i} ) $$
+$$\frac{\partial J(\beta_{1},\beta_{1})}{\partial \beta_{0}} = - \frac{1}{N} \sum_{i=1}^{N} (y_{i} - \beta_{0} - \beta_{1} x_{i} ) x_{i} $$
+
+分别令上面两个式子为0，便可求得参数$\beta_{0}$以及$\beta_{1}$
+
+梯度下降法；\\
+
+分别对$\beta_{0}$以及$\beta_{1}$做偏导后，再利用梯度下降法来对参数进行更新处理，直到$ \mid J(\beta_{0},\beta_{1})_{k} - J(\beta_{0},\beta_{1})_{k+1} \mid  < \epsilon$小于某个给定的阈值。
+更新公式如下：\\
+
+$$\beta_{0} = \beta_{0} - \alpha \frac{\partial J(\beta_{0},\beta_{1})}{\partial \beta_{0}} = \beta_{0} - \alpha  \frac{1}{N} \sum_{i=1}^{N} (y_{i} - \beta_{0} - \beta_{1} x_{i} ) $$ 
+
+$$\beta_{1} = \beta_{1} - \alpha \frac{\partial J(\beta_{0},\beta_{1})}{\partial \beta_{1}} = \beta_{1} - \alpha  \frac{1}{N} \sum_{i=1}^{N} (y_{i} - \beta_{0} - \beta_{1} x_{i} ) x_{i}  $$ 
+
+更新一次后，带入$J(\beta_{0},\beta_{1})$中，利用$ \mid J(\beta_{0},\beta_{1})_{k} - J(\beta_{0},\beta_{1})_{k+1} \mid  < \epsilon$
+
+
+
+\subsection{多元线性回归}
+
+公式的形式为: $Y = \beta_{0} + \beta_{1} X_{1} + ... + \beta_{m} X_{m}$，这里设置$X_{0} = 1$,于是公式改为: $Y = \beta_{0} X_{0} + \beta_{1} X_{1} + ... + \beta_{m} X_{m}$，将公式整合到一起来写，设置$\beta = (\beta_{0},\beta{1},...,\beta(m) )$,得到
+$$Y = \beta ^{T} X$$
+
+\subsubsection{cost function}
+
+$$J(\beta) = \frac{1}{2m} \sum_{i=0}^{m} (y_{i} - \beta x_{i}) ^{2}$$
+
+接下来是对$J(\beta)$的每个参数$\beta$求偏导，需要注意的是$i=0$时的情形。
+
+对于$i= 0$时，
+$$\frac{\partial J(\beta)}{\partial \beta_{0}} = \beta_{0} - \alpha \frac{\partial J(\beta)}{\partial \beta_{0}} = \beta_{0} - \alpha  \frac{1}{m} \sum_{i=1}^{m} (y_{i}  - \beta x_{i} )$$
+
+对于$i > 0$时，
+
+$$\frac{\partial J(\beta)}{\partial \beta_{i}} = \beta_{i} - \alpha \frac{\partial J(\beta)}{\partial \beta_{i}} = \beta_{i} - \alpha  \frac{1}{m} \sum_{i=1}^{m} (y_{i}  - \beta x_{i} ) x_{i}$$
+
+
+
+
+\section{逻辑斯提回归}
+
+逻辑斯提回归是将回归的思想用于分类中。二分类中，有$A$和$B$两类。我们在使用概率时，如果$p > 0.5$,会将结果判为$A$类；如果$p < 0.5$,会将结果判为$B$类。\\
+\begin{figure}[htbp]
+  \small
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=9cm]{./PICTURE/1.jpg}\\
+  \caption{图解1}
+     \label{2}
+\end{figure}
+
+
+问题：如何引入一个平滑的函数来刻画这个过程呢？而且这个函数必须是递增的，取值范围为0到1之间。\\
+联想到函数$\frac{1}{1+e^{-x}}$满足这个性质，图如下：
+
+\begin{figure}[htbp]
+  \small
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=9cm]{./PICTURE/2.jpg}\\
+  \caption{图解2}
+     \label{1}
+\end{figure}
+
+于是，得到$p$的函数形式，$p = \frac{1}{1+e^{-x}}$ ，这里的x为线性的变化，能否引入非线性的呢？当然可以，这里我们将非线性的引入，式子变为:
+$$ p = \frac{1}{1+e^{-a}} = \frac{1}{1+e^{-\beta^{T} x}} $$
+
+对于分类问题，响应变量$y$是离散，没法使用cost function 来表示。回忆起我们在求解概率问题的参数时采用极大似然法来解决。同样，我们这里也采用这个方法。\\
+$$Y = A, p = \frac{1}{1+e^{-\beta^{T} x}} $$
+$$Y = B, p = 1 - \frac{1}{1+e^{-\beta^{T} x}}  = \frac{e^{-\beta^{T}}}{1+e^{-\beta^{T} x}}$$
+
+
+那么有：
+$$J = - \frac{1}{m} [ \sum_{i=0}^{m} y_{i}log(p) + (1-y_{i})  log(1-p)]$$ 
+$$J = - \frac{1}{m} [\sum_{i=0}^{m} y_{i} log (\frac{1}{1+e^{-\beta^{T} x}}) + (1-y_{i}) log(\frac{e^{-\beta^{T}}}{1+e^{-\beta^{T} x}})]$$
+化简后为:
+$$J =- \frac{1}{m} [\sum_{i=0}^{m} y_{i} \beta^{T}x - log(1+e^{\beta^{T} x})]$$
+
+
+\section{贝叶斯}
+
+贝叶斯的使用假设是：数据是独立同分布的。
+
+将贝叶斯用于分类中，以概率为判断准则，谁的概率值大，结果就属于对应的类别。
+
+公式:
+$$ p(Y|X) = \frac{p(Y) p(X|Y)}{p(X)}$$
+
+
+这里的$p(X)$、$p(Y)$属于先验信息。$p(X|Y)$属于条件概率。通过这三个量来求后验概率，从而达到分类的效果。
+又由于对某个数据，需要将它分类，在所有类的判别时，它的概率是不变的，即分母不变。公式还可以改为:
+$$ p = p(Y) p(X|Y) = p(Y) p(x^{1},x^{2},...,x^{m}| Y = c_{k}) = p(Y) \prod _{i=1} ^{m} p(x^{i} | Y=c_{i})$$ 
+
+\subsection{离散型的}
+
+上面式子的$p(X)$、$p(Y)$、$p(X|Y)$是可以直接计算出来，从而求出后验信息$p(Y|X)$.
+
+\subsection{连续型的}
+
+根据离散型的可知，得到连续型的形式为:
+$$ p = p(Y) f $$
+
+这里的$f$为数据$x$所服从分布的密度函数。这个在LAD和QDA中将使用到。
+
+
+
+
+
+%\end{CJK}
+
+
+
+
+
+\end{document}

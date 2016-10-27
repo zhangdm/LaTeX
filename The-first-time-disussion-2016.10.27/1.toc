@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}线性回归}{4}
+\contentsline {subsection}{\numberline {1.1}一元线性回归}{4}
+\contentsline {subsubsection}{\numberline {1.1.1}cost function}{4}
+\contentsline {subsection}{\numberline {1.2}多元线性回归}{4}
+\contentsline {subsubsection}{\numberline {1.2.1}cost function}{5}
+\contentsline {section}{\numberline {2}逻辑斯提回归}{5}
+\contentsline {section}{\numberline {3}贝叶斯}{6}
+\contentsline {subsection}{\numberline {3.1}离散型的}{7}
+\contentsline {subsection}{\numberline {3.2}连续型的}{7}
