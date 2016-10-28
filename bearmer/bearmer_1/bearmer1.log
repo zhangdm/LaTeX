@@ -1,0 +1,50 @@
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9 64-bit) (preloaded format=xetex 2015.12.5)  5 DEC 2015 14:32
+entering extended mode
+**bearmer1.tex
+(E:\workp\tex\bearmer\bearmer_1\bearmer1.tex
+! Undefined control sequence.
+l.2 \documentclass
+                  {beamer}
+? 
+! Undefined control sequence.
+l.4 \usepackage
+               [utf8]{inputenc}
+? 
+! Undefined control sequence.
+l.5 \title
+          {Sample title}
+? 
+! Undefined control sequence.
+l.6 \author
+           {Anonymous}
+? 
+! Undefined control sequence.
+l.7 \institute
+              {ShareLaTeX}
+? 
+! Undefined control sequence.
+l.8 \date
+         {2014}
+? 
+! Undefined control sequence.
+l.10 \begin
+           {document}
+? 
+! Undefined control sequence.
+l.12 \frame
+           {\titlepage}
+? 
+! Undefined control sequence.
+l.12 \frame{\titlepage
+                      }
+? 
+! Undefined control sequence.
+l.14 \begin
+           {frame}
+? 
+! Undefined control sequence.
+l.15 \frametitle
+                {Sample frame title}
+? 
+[1] )
+Output written on bearmer1.pdf (1 page).
